@@ -10,5 +10,7 @@ repositories {
 }
 
 dependencies {
-    implementation("net.minestom:minestom-snapshots:9604a39476")
+    implementation("net.kyori:adventure-api:4.22.0")
+    implementation("ch.qos.logback:logback-classic:1.5.18")
+    implementation("org.jspecify:jspecify:1.0.0")
 }
